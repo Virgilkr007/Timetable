@@ -25,10 +25,12 @@ C – Least important courses
 Classification is based on a combination of course units and importance.
 
 Weighting System
+
 A custom mathematical weighting function is used to assign study time to each course.
 Courses with higher priority receive a larger share of the available study slots.
 
 Output
+
 The algorithm generates a timetable that:
 
 Distributes study time proportionally across courses,
