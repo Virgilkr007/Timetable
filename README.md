@@ -1,38 +1,29 @@
-# Timetable
+# Getting Started with Create React App
 
-This algorithm generates a structured study timetable by taking into account the number of units of each course and its level of importance.
+This project was created using [Create React App]. I outsourced it from a former vanilla.js project I did.
 
-Inputs
+## Available Scripts
 
-The system accepts the following inputs:
+In the project directory, you can run:
 
-i. The number of courses to study
+### `npm start`
 
-ii. The number of hours available for study per day
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.(Or any other loca;host server if the current one is already in use)
 
-iii. The duration of the study period (ranging from 1 week to 1 year)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Course Classification
+### `npm test`
 
-Each course is classified into one of three status categories:
+Launches the test runner in the interactive watch mode.\
+### `npm run build`
 
-A – Highly important courses
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-B – Moderately important courses
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-C – Least important courses
 
-Classification is based on a combination of course units and importance.
 
-Weighting System
-
-A custom mathematical weighting function is used to assign study time to each course.
-Courses with higher priority receive a larger share of the available study slots.
-
-Output
-
-The algorithm generates a timetable that:
-
-Distributes study time proportionally across courses,
-
-Produces a day-by-day study plan for the given period of study.
